@@ -6,4 +6,4 @@ services:
         VITE_API_URL: http://localhost:3333
     container_name: pt-novo-frontend
     ports:
-      - '8080:80'
+      - '8081:80'

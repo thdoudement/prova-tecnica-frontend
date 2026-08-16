@@ -74,7 +74,7 @@ cd frontend
 docker compose up --build
 ```
 
-Frontend em `http://localhost:8080`.
+Frontend em `http://localhost:8081`.
 
 Para apontar para outra API no build:
 

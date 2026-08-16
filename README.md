@@ -74,7 +74,7 @@ cd frontend
 docker compose up --build
 ```
 
-Frontend em `http://localhost:8080`.
+Frontend em `http://localhost:8081`.
 
 Para apontar para outra API no build:
 
@@ -104,6 +104,10 @@ Configure a URL da API em `.env`:
 ```env
 VITE_API_URL=http://127.0.0.1:3333
 ```
+
+## Auditoria da prova técnica
+
+Checklist completo (requisitos front + back + comandos de validação): veja `AUDITORIA.md` no repositório backend ou na raiz do monorepo local.
 
 ## Teste BDD — Busca de CEP
 

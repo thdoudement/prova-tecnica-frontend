@@ -105,6 +105,10 @@ Configure a URL da API em `.env`:
 VITE_API_URL=http://127.0.0.1:3333
 ```
 
+## Auditoria da prova técnica
+
+Checklist completo (requisitos front + back + comandos de validação): veja `AUDITORIA.md` no repositório backend ou na raiz do monorepo local.
+
 ## Teste BDD — Busca de CEP
 
 Arquivo: `src/components/BuscaCep.test.jsx`
